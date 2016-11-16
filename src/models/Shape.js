@@ -12,6 +12,10 @@ module.exports = Model.extend( {
         color: null
     },
 
-    urlRoot: ROOT + '/shapes'
+    urlRoot: ROOT + '/shapes',
+
+    parse: function ( data ) {
+        return data.shape;
+    }
 
 } );
