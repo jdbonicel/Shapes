@@ -73,7 +73,7 @@ router.route( '/shapes' )
             res.send( err );
 
         res.json( {
-            data: shape,
+            shape: shape,
             message: 'shape created!'
         } );
     } );
