@@ -15,7 +15,7 @@ module.exports = Model.extend( {
     urlRoot: ROOT + '/shapes',
 
     parse: function ( data ) {
-        return data.shape;
+        return data;
     }
 
 } );
