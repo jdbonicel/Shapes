@@ -1,15 +1,12 @@
 ## Create Shape - backbone - Webpack - RESTfull API
 
-This is an example how create shape ( triangle, square, circle ) with RESTfull API.
-I used bakcbone framework who use RESTfull API methods.
+This is an example how create shape ( triangle, square, circle ) with RESTful API.
 
 
 ScreenShot:
 ![alt tag](./src/images/shape-tuto.gif)
 
-
-the webpack dev server run on the port: 8080
-the node server run on the port: 3030
+///////////////////////////////////////////////////////////////
 
 What do you need to install:
 
@@ -17,11 +14,20 @@ What do you need to install:
 
 - mondodb
 
+- Install all dependencies: ```npm install```
+
+///////////////////////////////////////////////////////////////
 
 Open 3 terminals:
 
-- First run mongodb with : ```sudo mongod```
+- Run mongodb with : ```sudo mongod``` ( ```sudo mkdir -p /data/db``` if there is no database file )
 
-- Second run node server: ```node server.js```
+- Run node server: ```node server.js```
 
-- Third run the webpack dev server: ```npm run dev```
+- Run the webpack dev server: ```npm run dev```
+
+///////////////////////////////////////////////////////////////
+
+The webpack dev server run on http://localhost:8080
+
+RESTful API: http://localhost:3030/api
